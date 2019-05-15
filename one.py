@@ -21,4 +21,4 @@ with open(str(sys.argv[1]), 'r') as f:
 		if "quarantine" in line:
 			quarantines += 1
 outFile.close()
-f.close
+f.close()
