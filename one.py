@@ -2,9 +2,9 @@
 import sys
 import re
 
+minute = "00"
 rejects = 0
 quarantines = 0
-minute = "00"
 thisLine = []
 
 with open(str(sys.argv[1]), 'r') as f:
