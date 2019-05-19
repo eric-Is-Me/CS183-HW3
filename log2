@@ -1,9 +1,7 @@
 Mar  1 00:00:02 avas postfix/smtpd[2410]: lost connection after RCPT from unknown[218.246.34.68]
 Mar  1 00:00:02 avas postfix/smtpd[2410]: disconnect from unknown[218.246.34.68]
 Mar  1 00:00:02 avas postfix/smtpd[1822]: connect from unknown[62.113.122.52]
-Mar  1 00:00:03 avas postfix/smtpd[1822]: 4EC6561A83: client=unknown[62.113.122.52]
 Mar  1 00:00:03 avas postfix/smtpd[2314]: connect from host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]
-Mar  1 00:00:03 avas postfix/smtpd[1822]: 4EC6561A83: reject: RCPT from unknown[62.113.122.52]: 450 <apache@s2.raexpert.ru>: Sender address rejected: Domain not found; from=<apache@s2.raexpert.ru> to=<kennedyg@example.com> proto=ESMTP helo=<s2.raexpert.ru>
 Mar  1 00:00:03 avas postfix/smtpd[2314]: C0E5861AA4: client=host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]
 Mar  1 00:00:04 avas postfix/smtpd[2314]: C0E5861AA4: reject: RCPT from host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]: 450 <alvin@81.153.9.132>: Sender address rejected: Domain not found; from=<alvin@81.153.9.132> to=<lambiedav@example.com> proto=ESMTP helo=<exchange.work.local>
 Mar  1 00:00:05 avas postfix/pickup[1473]: 445C261AA4: uid=0 from=<root>

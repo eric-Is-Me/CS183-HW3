@@ -22,3 +22,4 @@ with open('log2', 'r') as f:
 	numUCom = unknowns.count(commonUnknown)
 	print("Total Unknown connections: {} - [{}] for {} connections".format(numUnknown, commonUnknown, numUCom))
 	print("Total Known connections: {} - [{}] for {} connections".format(numKnown, commonKnown, numCom))
+	f.close()

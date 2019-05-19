@@ -19,3 +19,4 @@ with open(str(sys.argv[1]), 'r') as f:
 	for i in range(5):
 		print(received[i])
 		print(sent[i])
+	f.close()
